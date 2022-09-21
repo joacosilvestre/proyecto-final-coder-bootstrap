@@ -1,0 +1,307 @@
+@font-face {
+    font-family: exorcet;
+    src: url(../css/fonts/films.EXH_____.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../assets/media/woodtable.webp);
+    height: 100%;
+}
+
+ /* ETIQUETAS GENERALES */
+p {
+    color: black;
+}
+
+h1 {
+    color: black;
+    font-family: exorcet;
+    text-align: center;
+    
+}
+
+h2 {
+    color: black;
+    font-family: exorcet;
+    font-size: 30px;
+}
+
+h2 img {
+    padding-right: 20px;
+}
+
+h3 {
+    color: black;
+    font-family: exorcet;
+}
+
+h4 {
+    color: black;
+    font-family: exorcet;
+}
+
+/* HEADER */
+        /* LOGO */
+.logo-header img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo-header {
+    height: 300px;
+    width: 300px; 
+    padding-top: 75px;
+}
+
+        /* TITULO */
+.titulo-header {
+    font-size: 50px;
+    font-family: exorcet;
+}
+
+        /* NAVBAR */
+.navbar-nav li {
+    margin: 30px 15px 30px 15px;
+    font-family: exorcet;
+}
+
+.navbar-nav li a {
+    color: white;
+    transition: all 500ms ease;
+        border-bottom: 5px solid transparent;
+}
+
+.navbar-nav li a:hover {
+    color: darkblue;
+    border-bottom: 5px solid;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2800, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* MAIN */
+        /* INDEX */
+
+.main-index {
+    border: 50px solid transparent;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image: url(../assets/media/marcosecciones.webp) 8% round;
+    background-image: url(../assets/media/fondosecciones.webp);
+}
+
+.titulo-index {
+    color: black;
+    font-family: exorcet;
+}
+
+        /* GUIA */
+.main-guia {
+    border: 50px solid transparent;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image: url(../assets/media/marcosecciones.webp) 8% round;
+    background-image: url(../assets/media/fondosecciones.webp);
+}
+
+/* nav interna */
+.ul-guia li a {
+    text-decoration: none;
+    color: darkblue;
+    font-family: exorcet;
+}
+
+/* sections */
+.titulo-actos {
+    margin: 20px 0px;
+}
+
+        /* CLASES */
+.main-clases {
+    border: 50px solid transparent;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image: url(../assets/media/marcosecciones.webp) 8% round;
+    background-image: url(../assets/media/fondosecciones.webp);
+}
+
+.ul-clases li {
+    padding: .5rem 1rem;
+    color: black;
+}
+
+.ul-clases li a {
+    margin: 0 !important;
+    padding: 0 !important;
+    color: darkblue;
+    font-family: exorcet;
+}
+
+.imagen-clases {
+    float: left;
+}
+
+li img {
+    padding: 5px;
+}
+
+.listas-clases {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.lista-objetos {
+    color: black;
+}
+
+/* MERCENARIOS */
+.main-mercenarios {
+    border: 50px solid transparent;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image: url(../assets/media/marcosecciones.webp) 8% round;
+    background-image: url(../assets/media/fondosecciones.webp);
+}
+
+.ul-mercenarios {
+    color: black;
+}
+
+.ul-mercenarios li a {
+    color: darkblue;
+    font-family: exorcet;
+}
+
+/* CONTACTO */
+.main-contacto {
+    border: 50px solid transparent;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image: url(../assets/media/marcosecciones.webp) 8% round;
+    background-image: url(../assets/media/fondosecciones.webp);
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+        /* BORDE IMG */
+.footer {
+    border: 50px solid transparent;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image: url(../assets/media/marcosecciones.webp) 8% round;
+    background-image: url(../assets/media/fondosecciones.webp);
+}
+
+@media (max-width:992px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .titulo-actos img {
+        width: 30px;
+    }
+
+    .listas-clases {
+        display: block;
+        color: black;
+    }
+}
+
+@media (max-width:768px) {
+    h2 {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    .titulo-actos img {
+        width: 20px;
+    }
+
+    .listas-clases {
+        display: block;
+        color: black;
+    }
+
+    .ul-mercenarios li {
+        text-align: center;
+    }
+}
+
+@media (max-width:576px) {
+    h3 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .titulo-actos img {
+        width: 30px;
+    }
+
+    .actos-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    .listas-clases {
+        display: block;
+        color: black;
+    }
+
+    .listas-clases img {
+        width: 40px;
+        float: none;
+    }
+
+    .imagen-clases {
+        width: 50%;
+    }
+
+    .ul-mercenarios li {
+        text-align: center;
+    }
+}
